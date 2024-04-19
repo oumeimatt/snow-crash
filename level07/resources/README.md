@@ -38,4 +38,5 @@ export LOGNAME='$(getflag)'
 ```
 This sets LOGNAME to the result of executing the getflag command.
 With the LOGNAME environment variable manipulated, I executed the level07 binary. As expected, it executed the command specified in the LOGNAME variable ($(getflag)) and printed the flag.
+
 ![alt text](level07.png)
