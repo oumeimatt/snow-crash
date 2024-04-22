@@ -42,5 +42,7 @@ done
 ```
 
 I executed the three scripts simultaneously. As a result, the level10 executable attempted to send the file to the specified host multiple times, exploiting the vulnerability in the permission check and eventually revealing the flag.
+
 ![alt text](flag.png)
+
 ![alt text](level10.png)
